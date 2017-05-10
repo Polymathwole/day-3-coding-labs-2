@@ -22,7 +22,7 @@ const words = (sentence)=>
 
     let jsonvalue= JSON.stringify(obj);
 
-    return jsonvalue;
+    return obj;
 }
 
 const input=(w)=>
@@ -35,3 +35,5 @@ const input=(w)=>
             map.set(w,count+1);
         }
 }
+
+console.log(words("olly olly in a free"))
